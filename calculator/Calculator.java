@@ -26,15 +26,12 @@ public class Calculator {
             case "+":
                 result = numOne + numTwo;
                 break;
-
             case "-":
                 result = numOne - numTwo;
                 break;
-
             case "*":
                 result = numOne * numTwo;
                 break;
-
             default:
                 if (numTwo == 0) {
                     System.out.println("ERRO");
